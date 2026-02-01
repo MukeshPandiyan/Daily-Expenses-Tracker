@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #1e293b;
+    padding: 25px;
+    width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.6);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.form select,
+.form input,
+.form button {
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+}
+
+.form button {
+    grid-column: span 2;
+    background: #22c55e;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background: #16a34a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background: #334155;
+}
+
+td {
+    background: #475569;
+}
+
+button.delete {
+    background: #ef4444;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.delete:hover {
+    background: #dc2626;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 15px;
+}
